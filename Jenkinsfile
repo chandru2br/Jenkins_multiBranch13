@@ -21,7 +21,7 @@ node('built-in')
 
 	input 'Waiting for Approval'
 
-    	sh label: '', script: 'scp  /home/ubuntu/.jenkins/workspace/ScriptedPipeline01/webapp/target/webapp.war   ubuntu@172.31.11.248:/var/lib/tomcat8/webapps/prodenv.war'
+    	sh label: '', script: 'scp  /home/ubuntu/.jenkins/workspace/ScriptedPipeline01/webapp/target/webapp.war   ubuntu@172.31.14.9:/var/lib/tomcat8/webapps/prodenv.war'
 	}
 
 }
